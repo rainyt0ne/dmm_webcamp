@@ -17,34 +17,58 @@ main {
   width: 960px;
 }
 
-  .main-items {
+  .main-item {
     width: 300px;
-    background-color: #AAAAAA
+    background-color: #AAAAAA;
+    position: relative;
+    margin-right: 30px
   }
 
-      .main-heading {
-        color: #FFFFFF;
-        background-color: #FF9A4B;
-        width: 50px;
-        height: 30px;
-        line-height: 30px;
-        font-weight: normal;
-        letter-spacing: 1px;
-      }
+  .main-item:last-child {
+    margin-right: 0;
+  }
 
-      .main-item {
+      .main-image {
+        height: 150px;
         margin: 10px;
       }
 
-
-      .main-image {
+      .image1 {
         background-image: url(./img/flow01.png);
-        background-position: center;
+        background-position: bottom;
         background-size: cover;
-        height: 150px;
       }
 
+      .image2 {
+        background-image: url(./img/flow02.png);
+        background-position: bottom;
+        background-size: cover;
+      }
 
+      .image3 {
+        background-image: url(./img/flow03.png);
+        background-position: bottom;
+        background-size: cover;
+      }
+
+      .sub-title {
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #FFFFFF;
+        background-color: #FF9A4B;
+        letter-spacing: 1px;
+      }
+
+      .main-title {
+        margin-top: 5px;
+        margin-left: 10px
+      }
+
+      .main-text {
+        margin: 10px;
+        font-size: 12px;
+      }
 
 footer {
   background-color: #AAAAAA;
