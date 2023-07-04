@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: auto;
+  height: 50px;
+  background-color: #FF9A4B;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+  width: 960px;
+}
+
+  .main-items {
+    width: 300px;
+    background-color: #AAAAAA
+  }
+
+      .main-heading {
+        color: #FFFFFF;
+        background-color: #FF9A4B;
+        width: 50px;
+        height: 30px;
+        line-height: 30px;
+        font-weight: normal;
+        letter-spacing: 1px;
+      }
+
+      .main-item {
+        margin: 10px;
+      }
+
+
+      .main-image {
+        background-image: url(./img/flow01.png);
+        background-position: center;
+        background-size: cover;
+        height: 150px;
+      }
+
+
+
+footer {
+  background-color: #AAAAAA;
+  width: auto;
+  height: 50px;
+}
